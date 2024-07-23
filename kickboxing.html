@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora Naranja</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/scripts/axios.js" type="module" ></script>
+    <script src="/scripts/grafico_kick.js " type="module"></script>   
+</head>
+<body>
+    <header class="header">
+    
+        <nav class="header__menu">
+          <div class="header__menu">
+            <a class="header__menu__link" href="estudiante.html">Estudiante</a>
+            <a class="header__menu__link" href="index.html">Hora naranja</a>
+            <a class="header__menu__link" href="pilates.html">Pilates</a>
+            <a class="header__menu__link" href="kickboxing.html">kickboxing</a>
+            <a class="header__menu__link" href="fisioterapia.html">Fisioterapia</a>
+            <a class="header__menu__link" href="nutricion.html">Nutrición</a>
+          
+
+        </nav>
+          </div>
+        </div>
+          
+           
+    </header>
+    <main class="presentacion">
+        <section class="presentacion__contenido">
+            <h1 class="presentacion__contenido__titulo">
+                Asistencia en Nutrición en los
+                <strong class="titulo-destaque">dias 9 y 10 de Julio
+                </strong></h1>
+                <div class="grafico">
+                  <canvas id="myChart3"></canvas>
+                  </div>
+                <p class="presentacion__contenido__texto">Conoce la popularidad de las clases por hora para optimizar la programación de recursos.
+
+                </p>
+                
+               
+        </section>
+        <div class="presentacion__contenido">
+          <h1 class="presentacion__contenido__titulo">
+            Asistencias VS prediccion para Nutrición en el
+            <strong class="titulo-destaque">dia 10 de Julio
+            </strong></h1>
+          <div class="grafico">
+          <canvas id="myChart4"></canvas>
+          </div>
+          <p class="presentacion__contenido__texto">Analiza la retención por hora para identificar posibles puntos de fuga y mejorar la fidelización.
+            ¿Hablamos?
+
+        </p>
+        
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Frontend tomado de Alura Latam y modificado para Talento Tech</p>
+    </footer>
+</body>
+</html>
